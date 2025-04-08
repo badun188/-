@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chatbox {
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#messages {
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+#user_input {
+    width: calc(100% - 50px);
+    margin-right: 10px;
+}
